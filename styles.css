@@ -6,6 +6,20 @@
 body{
     font-family: 'roboto', sans-serif;
     width: 100%;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+#bloc-page{
+    
+    margin: 0;
+    width: 100%;
+    
+    
+}
+section{
+    
 }
 .img-header{
    width: 100%;
@@ -21,7 +35,7 @@ a{
     font-size: 2rem;
 }
 input{
-    width: 100%;
+    
     padding: 1rem;
     background: #f2f2f2;
     color: black;
@@ -34,14 +48,14 @@ input{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    
     background-color: #f2f2f2;
     box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 16%);
 }
 .icon-localisation{
     background: #f2f2f2;
     position: relative;
-    left: 30px;
+    
 }
 .search-localisation{
     padding: 0;
@@ -53,12 +67,12 @@ input{
     justify-content: center;
     
     align-items: center;
-    width: 100%;
+   
     height: 320px;
     background: #fafafa;
 }
 .section1 h2{
-    max-width: 260px;
+    width: 260px;
     text-align: center;
     margin: 0;
     font-weight: bold;
@@ -84,11 +98,14 @@ input{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 92%;
+    
+    
+    
     
 }
 .section2 h2{
     font-weight: bold;
+    margin-left: 15px;
 }
 .menu{
     display: flex;
@@ -97,7 +114,8 @@ input{
    border-radius: 20px;
    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 16%);
    background: #fafafa;
-   width: 100%;
+   margin-left: 15px;
+   
    margin-bottom:  20px;
 }
 .number{
@@ -119,36 +137,22 @@ input{
     color: black;
 }
 /*------------------responsive section 2---------------------*/
-@media (min-width: 768px){
+@media(min-width: 768px){
     .section2{
         flex-direction: row;
-        width: 100%;
         align-items: flex-end;
-       justify-content: center;
+       
+        
+        
+    }
+    .menu{
        margin-right: 2rem;
-        
+       padding-right: 3rem;
         
     }
-    .menu {
-        flex-direction: row;
-        
-        
-    
-      
-    }
-    .bloc-menu {
-        display: flex;
-        flex-direction: column;
-    }
-   
-  
-    
-}
-@media (min-width: 1024px){
     .menu a{
-      margin-right: 20px; 
+       
     }
-
 }
 /*----------------section 3----------------------*/
 .section3{
@@ -157,80 +161,93 @@ input{
    justify-content: center;
    align-items: center;
     background: #f2f2f2;
-    width: 100%;
+    flex-wrap: wrap;
+    
+    
     
 }
 .img-restaurants{
    display: flex;
-   flex-direction: column;
    
-    height: 280px;
+    width: 300px;
+    max-height: 280px;
     background: white;
     box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 16%);
     border-radius: 20px;
-    width: 100%;  
-    margin-bottom: 3rem;
+    
+      
+    
     
 }
 .img-restaurants img{
     width: 100%;
-    height: 200px;
+    max-height: 200px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     object-fit: cover;
+    
 }
-.img-restaurants h3{
-    margin: 7px 0 0 10px;
-    font-weight: bold;
-}
-.img-restaurants p{
-    margin: 5px 0 0 10px;
-}
-.img-restaurants i{
-    position: relative;
-    left: 240px;
-    bottom: 40px;
-    font-size: 30px;
+
+
     
 }
 .bloc-restaurants{
     display: flex;
     flex-direction: column;
-    width: 100%;
+    align-items: center;
+    height: 280px;
+    
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 16%);
+    border-radius: 20px;
+    margin-bottom: 20px;
+    max-width: 300px;
+    
+    
+    
 }    
-.section3 h2{
-       
+.bloc-description{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+    background: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-bottom: 30px;
+    height: 60px;
+    padding: 0 5px 0 15px;
+    max-width: 280px;
+}
+.name h3{
+    margin: 0;
 
 }
-/*---------------responsive section 3-------------*/
-@media (min-width: 768px){
-    .bloc-cards{
-       display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-        height: auto;
-        border: 1px solid red;
-        width: 100%;
-        
-    }
-    .img-restaurants{
-        margin: 1rem;
-        
-    }
-    .section3{
-        width: 100%;
-    }
-  
-    
-    
-    
+.name p{
+    margin: 0;
 }
+.heart{
+    font-size: 20px;
+}
+/*---------------responsive section 3-------------*/
+@media(min-width: 768px){
+    .section3{
+      justify-content: flex-start;  
+    }
+    .bloc-cards{
+        display: flex;
+        width: 768px;
+        height: auto;
+        
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: flex-end;
+    }
+}
+
 /*---------------footer--------------*/
 footer{
     background: #353535;
     padding: 15px 30px 15px 30px;
+    
 }
 footer h2{
     font-family: 'Shrikhand', sans-serif;
