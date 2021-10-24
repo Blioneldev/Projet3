@@ -60,6 +60,9 @@ input{
 .search-localisation{
     padding: 0;
 }
+a{
+    color: black;
+}
 /*----------------SECTION 1-------------*/  
 .section1{
     display: flex;
