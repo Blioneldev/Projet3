@@ -216,8 +216,9 @@ a{
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     margin-bottom: 30px;
+    
     height: 60px;
-    padding: 0 5px 0 15px;
+    padding: 0 15px 0 15px;
     max-width: 280px;
 }
 .name h3{
@@ -229,6 +230,15 @@ a{
 }
 .heart{
     font-size: 20px;
+}
+.new{
+    border: 1px solid #99E2D0;
+    background-color: #99E2D0;
+    padding: 10px;
+    position: relative;
+    bottom: 190px;
+    left: 25px;
+    
 }
 /*---------------responsive section 3-------------*/
 @media(min-width: 768px){

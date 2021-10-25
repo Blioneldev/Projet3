@@ -21,10 +21,23 @@ body{
 a{
     text-decoration: none;
 }
+
+
+.logo-header  i{
+    position: relative;
+    top: 58px;
+    right: -30px;
+    font-size: 1.3rem;
+    color: black;
+    
+}
 .logo-header h1{
     text-align: center;
     color: black;
     font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    
 }
 header img{
     width: 100%;
