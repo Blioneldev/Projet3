@@ -66,8 +66,14 @@ section{
     margin-left: 10px;
 
 }
+.border{
+    width: 50px;
+    height: 5px;
+    background: #99E2D0;
+   margin: 5px 0 15px 10px;
+}
 .section1 h3{
-    margin-left: 10px;
+    margin: 20px 0 0 10px;
 }
 .menu-restaurant{
     display: flex;
@@ -79,7 +85,9 @@ section{
     background-color: white;
     margin-left: 10px;
     margin-right: 10px;
-    min-width: 330px;
+    min-width: 300px;
+    padding: 7px;
+    height: 60px;
 }
 .name-meal{
     margin-left: 10px;
@@ -100,26 +108,19 @@ section{
     flex-direction: column;
     
     
-}
-.section2 h2{
-    font-family: 'Shrikhand', sans-serif;
-    margin-left: 10px;
+
 
 }
+.border{
+    width: 50px;
+    height: 5px;
+    background: #99E2D0;
+   margin: 5px 0 15px 10px;
+}
 .section2 h3{
-    margin-left: 10px;
+    margin: 20px 0 0 10px;
 }
-.menu-restaurant{
-    display: flex;
-    border-radius: 20px;
-    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 16%);
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
-    background-color: white;
-    margin-left: 10px;
-    margin-right: 10px;
-}
+
 .name-meal{
     margin-left: 10px;
 }
@@ -139,27 +140,20 @@ section{
     flex-direction: column;
     
     
-}
-.section3 h2{
-    font-family: 'Shrikhand', sans-serif;
-    margin-left: 10px;
 
+
+}
+.border{
+    width: 50px;
+    height: 5px;
+    background: #99E2D0;
+   margin: 5px 0 15px 10px;
 }
 .section3 h3{
-    margin-left: 10px;
+    margin: 20px 0 0 10px;
 
 }
-.menu-restaurant{
-    display: flex;
-    border-radius: 20px;
-    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 16%);
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
-    background-color: white;
-    margin-left: 10px;
-    margin-right: 10px;
-}
+
 .name-meal{
     margin-left: 10px;
 }
@@ -184,16 +178,16 @@ section{
     color: white;
     font-weight: bold;
     text-align: center;
-    
+    -webkit-box-shadow: 0px 0px 15px 2px rgba(0,0,0,0.62); 
+box-shadow: 0px 0px 15px 2px rgba(0,0,0,0.62);
 }
 .button{
     display: flex;
     justify-content: center;
-    margin-top: 2rem;
-    
-    
-    
-    
+    margin-top: 2rem;  
+}
+.button a:hover{
+    opacity: 0.7;
 }
 /*---------------------------footer---------------*/
 footer{
@@ -240,7 +234,7 @@ footer h2{
     }
 }
 /*------------responsive section---------------------*/
-@media(min-width: 1000px){
+@media(min-width: 1024px){
     section{
         display: flex;
         flex-direction: column;

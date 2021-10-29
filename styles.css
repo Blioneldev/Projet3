@@ -18,6 +18,11 @@ body{
     
     
 }
+.loadin_spinner{
+ 
+    
+}  
+
 section{
     
 }
@@ -95,6 +100,11 @@ a{
         180deg, #ff79da 0%, #9356dc 100%);
     color: white;
     font-weight: bold;
+    -webkit-box-shadow: 0px 0px 15px 2px rgba(0,0,0,0.62); 
+box-shadow: 0px 0px 15px 2px rgba(0,0,0,0.62);
+}
+.section1 a:hover{
+    opacity: 0.7;
 }
 /*----------------SECTION 2------------------*/
 .section2{
@@ -216,7 +226,7 @@ a{
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     margin-bottom: 30px;
-    
+    position: relative;
     height: 60px;
     padding: 0 15px 0 15px;
     max-width: 280px;
@@ -230,14 +240,56 @@ a{
 }
 .heart{
     font-size: 20px;
+    position: absolute;
+    left: 260px;
+}
+.heart-2{
+    font-size: 20px;
+    position: absolute;
+    right: 19px;
+    background: rgb(147,86,220);
+background: linear-gradient(90deg, rgba(147,86,220,1) 0%, rgba(255,121,218,1) 70%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+    opacity: 0;
+    
+}
+.heart:hover{
+    
+    color:white;
+    opacity: 0;
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+}
+.heart-2:hover{
+    font-size: 22px;
+    opacity: 1;
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+    -webkit-animation-duration: 0.7s;
+    animation-duration: 0.7s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    }
+    @-webkit-keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+    }
+    @keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+    
+           
 }
 .new{
     border: 1px solid #99E2D0;
     background-color: #99E2D0;
     padding: 10px;
-    position: relative;
+    position: absolute;
     bottom: 190px;
-    left: 25px;
+    left: 200px;
     
 }
 /*---------------responsive section 3-------------*/
