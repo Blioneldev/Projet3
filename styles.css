@@ -1,33 +1,23 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 
-
-
 body{
     font-family: 'roboto', sans-serif;
-    width: 100%;
-    
+    width: 100%;    
     margin: 0;
     padding: 0;
-    
-    
 }
 #bloc-page{
-    
     margin: 0;
     width: 100%;
-    
-    
 }
 .loadin_spinner{
  position: fixed;
  left: 0; right: 0; top: 0; bottom: 0;
  width: 100%;
  height: 100%;
- 
  background: white;
   z-index: 2; 
-
     -webkit-animation-name: fadeOut;
   animation-name: fadeOut;
   -webkit-animation-duration: 1s;
@@ -35,11 +25,7 @@ body{
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
   animation-delay: 2s;
-  
- 
-    
 }
-
 .spinner-border{
     position: fixed;
     margin: auto;
@@ -49,28 +35,17 @@ body{
     border-right-color: #99E2D0;
     display: flex;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center;   
     border-radius: 80px;
     width: 100px;
     height: 100px;
     animation: spinner 1s linear infinite;
     z-index: 1; 
-    
-    
-
-
-    
-    
-
 }
 @keyframes spinner{
     0%{ transform: rotate(0deg);opacity: 1; }
     100%{ transform: rotate(360deg); opacity: 1;}
-
-
 }
-
   @-webkit-keyframes fadeOut {
   0% {opacity: 0.9;}
   100% {opacity: 0; visibility: hidden;}
@@ -79,24 +54,17 @@ body{
   0% {opacity: 0.9;}
   100% {opacity: 0; visibility: hidden;}
   } 
-.spinner-center{
-   
+.spinner-center{  
     border: 5px solid transparent;
     width: 50px;
     height: 50px;
-   
     border-radius: 80px;
     border-top-color: #9356DC;
     border-bottom-color: #FF79DA;
 } 
-
-section{
-    
-}
 .img-header{
    width: 100%;
    font-family: 'Shrikhand', sans-serif;
-
 }
 a{
     text-decoration: none;
@@ -107,7 +75,6 @@ a{
     font-size: 2rem;
 }
 input{
-    
     padding: 1rem;
     background: #f2f2f2;
     color: black;
@@ -120,14 +87,12 @@ input{
     display: flex;
     align-items: center;
     justify-content: center;
-    
     background-color: #f2f2f2;
     box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 16%);
 }
 .icon-localisation{
     background: #f2f2f2;
     position: relative;
-    
 }
 .search-localisation{
     padding: 0;
@@ -140,9 +105,7 @@ a{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
     align-items: center;
-   
     height: 320px;
     background: #fafafa;
 }
@@ -151,7 +114,6 @@ a{
     text-align: center;
     margin: 0;
     font-weight: bold;
-    
 }
 .section1 p{
     font-size: 16px;
@@ -178,10 +140,6 @@ box-shadow: 0px 0px 15px 2px rgba(0,0,0,0.62);
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
-    
-    
-    
 }
 .section2 h2{
     font-weight: bold;
@@ -190,12 +148,10 @@ box-shadow: 0px 0px 15px 2px rgba(0,0,0,0.62);
 .menu{
     display: flex;
     align-items: center;
-    
    border-radius: 20px;
    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 16%);
    background: #fafafa;
    margin-left: 15px;
-   
    margin-bottom:  20px;
 }
 .number{
@@ -225,18 +181,12 @@ box-shadow: 0px 0px 15px 2px rgba(0,0,0,0.62);
     .section2{
         flex-direction: row;
         align-items: flex-end;
-       
-        
-        
     }
     .menu{
        margin-right: 2rem;
        padding-right: 3rem;
-        
     }
-    .menu a{
-       
-    }
+    
 }
 /*----------------section 3----------------------*/
 .section3{
@@ -246,23 +196,14 @@ box-shadow: 0px 0px 15px 2px rgba(0,0,0,0.62);
    align-items: center;
     background: #f2f2f2;
     flex-wrap: wrap;
-    
-    
-    
-
 }
 .img-restaurants{
    display: flex;
-   
     width: 300px;
     max-height: 280px;
     background: white;
     box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 16%);
     border-radius: 20px;
-    
-      
-    
-    
 }
 .img-restaurants img{
     width: 100%;
@@ -270,24 +211,13 @@ box-shadow: 0px 0px 15px 2px rgba(0,0,0,0.62);
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     object-fit: cover;
-    
 }
-
-
-    
-
 .bloc-restaurants{
     display: flex;
-    flex-direction: column;
-    
-    
-    
+    flex-direction: column;   
     border-radius: 20px;
     margin-bottom: 20px;
     max-width: 300px;
-    
-    
-    
 }    
 .bloc-description{
     display: flex;
@@ -296,7 +226,6 @@ box-shadow: 0px 0px 15px 2px rgba(0,0,0,0.62);
     background: white;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    
     position: relative;
     height: 60px;
     padding: 0 15px 0 15px;
@@ -304,7 +233,6 @@ box-shadow: 0px 0px 15px 2px rgba(0,0,0,0.62);
 }
 .name h3{
     margin: 0;
-
 }
 .name p{
     margin: 0;
@@ -327,7 +255,6 @@ background: linear-gradient(90deg, rgba(147,86,220,1) 0%, rgba(255,121,218,1) 70
     
 }
 a:hover .heart{
-    
     color:white;
     opacity: 0;
         background-clip: text;
@@ -351,8 +278,6 @@ a:hover .heart-2{
     @keyframes fadeIn {
     0% {opacity: 0;}
     100% {opacity: 1;}
-    
-           
 }
 .new{
     border: 1px solid #99E2D0;
@@ -361,7 +286,6 @@ a:hover .heart-2{
     position: absolute;
     bottom: 190px;
     left: 200px;
-    
 }
 /*---------------responsive section 3-------------*/
 @media(min-width: 768px){
@@ -372,7 +296,6 @@ a:hover .heart-2{
         display: flex;
         width: 768px;
         height: auto;
-        
         flex-wrap: wrap;
         justify-content: space-evenly;
         align-items: flex-end;
@@ -383,7 +306,6 @@ a:hover .heart-2{
 footer{
     background: #353535;
     padding: 15px 30px 15px 30px;
-    
 }
 footer h2{
     font-family: 'Shrikhand', sans-serif;

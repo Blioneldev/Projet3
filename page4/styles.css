@@ -33,14 +33,12 @@ a{
     top: 37px;
     right: -30px;
     font-size: 1.3rem;
-    color: black;
-    
+    color: black;  
 }
 header img{
     width: 100%;
     object-fit: cover;
     max-height: 500px;
-    
 }
 section{
     display: flex;
@@ -59,10 +57,7 @@ section{
 /*--------------section1-------------*/
 .section1{
     display: flex;
-    flex-direction: column;
-    
-    
-    
+    flex-direction: column;  
 }
 .bloc-menu{
     position: relative;
@@ -70,15 +65,12 @@ section{
 .section1 h2{
     font-family: 'Shrikhand', sans-serif;
     margin-left: 10px;
-
 }
 .heart{
     font-size: 25px;
     position: absolute;
     top: 22px;
     right: 40px;
-    
-  
 }
 .heart-2{
     font-size: 20px;
@@ -90,17 +82,14 @@ background: linear-gradient(90deg, rgba(147,86,220,1) 0%, rgba(255,121,218,1) 70
         background-clip: text;
         -webkit-background-clip: text;
         color: transparent;
-    opacity: 0;
-    
+    opacity: 0; 
 }
 .heart:hover {
-    
     color:white;
     opacity: 0;
         background-clip: text;
         -webkit-background-clip: text;
-        color: transparent;
-        
+        color: transparent;    
 }
 .heart-2:hover {
     font-size: 27px;
@@ -112,7 +101,6 @@ background: linear-gradient(90deg, rgba(147,86,220,1) 0%, rgba(255,121,218,1) 70
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
     background-clip: text;
-    
     }
     @-webkit-keyframes fadeIn {
     0% {opacity: 0;}
@@ -124,39 +112,30 @@ background: linear-gradient(90deg, rgba(147,86,220,1) 0%, rgba(255,121,218,1) 70
     }
 #bloc1{
     animation-delay: 0.1s;
-  
 }
 #bloc2{
     animation-delay: 0.2s;
-  
 }
 #bloc3{
     animation-delay: 0.3s;
-  
 }
 #bloc4{
     animation-delay: 0.4s;
-  
 }
 #bloc5{
     animation-delay: 0.5s;
-  
 }
 #bloc6{
     animation-delay: 0.6s;
-  
 }
 #bloc7{
     animation-delay: 0.7s;
-  
 }
 #bloc8{
     animation-delay: 0.8s;
-  
 }
 #bloc9{
     animation-delay: 0.9s;
-  
 }
 .border{
     width: 50px;
@@ -189,8 +168,6 @@ background: linear-gradient(90deg, rgba(147,86,220,1) 0%, rgba(255,121,218,1) 70
     animation-duration: 0.3s;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
-    
-    
     }
     @-webkit-keyframes fadeIn {
     0% {opacity: 0;}
@@ -198,11 +175,7 @@ background: linear-gradient(90deg, rgba(147,86,220,1) 0%, rgba(255,121,218,1) 70
     }
     @keyframes fadeIn {
     0% {opacity: 0;}
-    100% {opacity: 1;}
-
-    
-        
-         
+    100% {opacity: 1;}           
 }
 .name-meal{
     margin-left: 10px;
@@ -238,55 +211,37 @@ background: linear-gradient(90deg, rgba(147,86,220,1) 0%, rgba(255,121,218,1) 70
     padding: 0 13px;
     height: 100%;
     align-items: center;
-    justify-content: center;
-    
+    justify-content: center; 
 }
 .menu-restaurant:hover .price{
     padding-right: 60px;
-    
-    
-    
     transition: ease 0.4s;
 }
 
 .menu-restaurant:hover .slide-left{
     opacity: 1;
     animation:slide 0.3s linear;
-
-
-
 }
 @keyframes slide{
     0%{ transform: translateX(29px) scaleX(0 ) scaleY(0.7);}
     100%{ transform: translateX(0) scaleX(1) scaleY(1);  }
 }
-
 .slide-left i{
     font-size: 30px;
   color: white;
- 
-     
-
 }
 .menu-restaurant:hover .name-meal{
     padding-right: 10px;
 }
 .menu-restaurant:hover i{
    transition: 500ms;
-    transform: rotate(360deg) ; 
-  
-    
-	
+    transform: rotate(360deg) ; 	
 }   
 /*----------------------------section2---------------------------------*/
 .section2{
     display: flex;
     flex-direction: column;
 }
-#bloc2{
-  
-
-    }
 .border{
     width: 50px;
     height: 5px;
@@ -296,7 +251,6 @@ background: linear-gradient(90deg, rgba(147,86,220,1) 0%, rgba(255,121,218,1) 70
 .section2 h3{
     margin: 20px 0 0 10px;
 }
-
 .name-meal{
     margin-left: 10px;
 }
@@ -315,10 +269,6 @@ background: linear-gradient(90deg, rgba(147,86,220,1) 0%, rgba(255,121,218,1) 70
     display: flex;
     flex-direction: column;
 }
-#bloc3{
-    
-
-    }
 .border{
     width: 50px;
     height: 5px;
@@ -327,9 +277,7 @@ background: linear-gradient(90deg, rgba(147,86,220,1) 0%, rgba(255,121,218,1) 70
 }
 .section3 h3{
     margin: 20px 0 0 10px;
-
 }
-
 .name-meal{
     margin-left: 10px;
 }
@@ -343,9 +291,7 @@ background: linear-gradient(90deg, rgba(147,86,220,1) 0%, rgba(255,121,218,1) 70
 .name-meal p{
     margin: 0;
 }
-.button a{
-    
-    
+.button a{   
     box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 16%);
     border-radius: 45px;
     padding: 15px 50px 15px 50px;
@@ -357,12 +303,10 @@ background: linear-gradient(90deg, rgba(147,86,220,1) 0%, rgba(255,121,218,1) 70
     -webkit-box-shadow: 0px 0px 15px 2px rgba(0,0,0,0.62); 
 box-shadow: 0px 0px 15px 2px rgba(0,0,0,0.62);
 }
-
 .button{
     display: flex;
     justify-content: center;
-    margin-top: 2rem;    
-   
+    margin-top: 2rem;      
 }
 .button a:hover{
     opacity: 0.7;
@@ -371,11 +315,7 @@ box-shadow: 0px 0px 15px 2px rgba(0,0,0,0.62);
 footer{
     background: #353535;
     padding: 15px 30px 15px 30px;
-    margin: 0;
-   
-    
-    
-    
+    margin: 0;   
 }
 footer h2{
     font-family: 'Shrikhand', sans-serif;
@@ -417,8 +357,7 @@ footer h2{
     section{
         display: flex;
         flex-direction: column;
-        align-items: center;
-        
+        align-items: center;  
     }
     .section1{
         width: 33%;
