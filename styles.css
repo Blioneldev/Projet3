@@ -1,11 +1,11 @@
 
 
-
 body{
     font-family: 'roboto', sans-serif;
     width: 100%;    
     margin: 0;
     padding: 0;
+    text-rendering: auto;
 }
 #bloc-page{
     margin: 0;
